@@ -22,7 +22,7 @@ Transient analysis was performed to verify the circuit's behavior under differen
 ![image](https://github.com/Hudo1501/Non-Inverting-Amplifier/blob/432b2167275fe33683ba7dd7531489f80e0ca5e6/gain_10.jpg)
 ![image](https://github.com/Hudo1501/Non-Inverting-Amplifier/blob/432b2167275fe33683ba7dd7531489f80e0ca5e6/gain_20.jpg)
 
-## Hardware Implementation & 🔧 Troubleshooting
+## Hardware Implementation & Troubleshooting
 The theoretical design was translated into a physical PCB. During the manual fabrication process, a layout transfer error occurred (the non-mirrored bottom-layer design was used, which caused the component pins to obstruct the traces under the IC). 
 
 **Engineering Workaround:** Standard through-hole soldering became impossible. To overcome this issue, an unconventional hardware debugging technique was implemented: specific IC pins were lifted, and point-to-point wired connections were established directly to their corresponding traces to bypass the obstruction and complete the circuit. 
