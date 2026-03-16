@@ -19,7 +19,6 @@ Transient analysis was performed to verify the circuit's behavior under differen
 * **Av = 10:** With an input pulse of 2.5mV, the output correctly scaled to approximately 25mV.
 * **Av = 20:** The output successfully reached 50mV in phase with the input.
 
-*(Insert your LTspice waveform images here)*
 ![image](https://github.com/Hudo1501/Non-Inverting-Amplifier/blob/432b2167275fe33683ba7dd7531489f80e0ca5e6/gain_10.jpg)
 ![image](https://github.com/Hudo1501/Non-Inverting-Amplifier/blob/432b2167275fe33683ba7dd7531489f80e0ca5e6/gain_20.jpg)
 
@@ -28,14 +27,13 @@ The theoretical design was translated into a physical PCB. During the manual fab
 
 **Engineering Workaround:** Standard through-hole soldering became impossible. To overcome this issue, an unconventional hardware debugging technique was implemented: specific IC pins were lifted, and point-to-point wired connections were established directly to their corresponding traces to bypass the obstruction and complete the circuit. 
     
-*(Insert your Proteus 3D and Physical Board images here)*
 ![image](https://github.com/Hudo1501/Non-Inverting-Amplifier/blob/cdb02b57ecdb3237182d4bdc701473717ec6fd92/pcb_layout.png)
 ![image](https://github.com/Hudo1501/Non-Inverting-Amplifier/blob/cdb02b57ecdb3237182d4bdc701473717ec6fd92/phy_PCB.jpg)
 
 ## Experimental Results
 Hardware measurements using a Tektronix Digital Oscilloscope validated the simulation data. The output waveforms remained perfectly in-phase with the input pulses, and the amplitude scaled accurately with the potentiometer adjustments, proving the real-world reliability of the theoretical model.
 
-*(Insert your Oscilloscope images here)*
+
 ![image](https://github.com/Hudo1501/Non-Inverting-Amplifier/blob/758092200149bb3a9d7e30790f3e4e014da0c7f5/oscilloscope_g10.jpg)
 ![image](https://github.com/Hudo1501/Non-Inverting-Amplifier/blob/758092200149bb3a9d7e30790f3e4e014da0c7f5/oscilloscope_g20.jpg)
 
